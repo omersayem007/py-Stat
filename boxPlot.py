@@ -8,3 +8,17 @@ ptiles_vers = np.percentile(versicolor_petal_length,percentiles)
 
 # Print the result
 print(ptiles_vers)
+
+# Create box plot with Seaborn's default settings
+sns.boxplot(df['species'],df['petal length (cm)'])
+
+
+# Label the axes
+plt.xlabel('hehe')
+plt.ylabel('haha')
+
+
+
+# Show the plot
+plt.show()
+
